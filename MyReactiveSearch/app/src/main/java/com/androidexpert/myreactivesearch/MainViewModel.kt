@@ -11,7 +11,7 @@ import kotlinx.coroutines.flow.*
 @ExperimentalCoroutinesApi
 class MainViewModel : ViewModel() {
     private val accessToken =
-        "TOKEN HERE"
+        "pk.eyJ1IjoiYXJpZmFpemluIiwiYSI6ImNrYTI2c3R1cjAwNXAzbm1zaDYyZW1ra2cifQ.okSWF0zf58rWkhoVuYjShQ"
     val queryChannel = MutableStateFlow("")
 
     val searchResult = queryChannel
